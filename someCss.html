@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="anExternal.css">
+<head>
+	<title>Some CSS Original Work</title>
+</head>
+<body>
+	<h1>Some CSS Original Work</h1>
+
+	<h2>Level 1: Newbie</h2>
+		<ol>
+			<li>
+				<p>Two paragraphs that each have a different font</p>
+				<p style="font-family: georgia,serif"><span>T</span>his is a paragraph that has the font arial. This is a paragraph that has the font arial. This is a paragraph that has the font arial. This is a paragraph that has the font arial. This is a paragraph that has the font arial. This is a paragraph that has the font arial. This is a paragraph that has the font arial. This is a paragraph that has the font arial.</p>
+				<p style="font-family: arial, helvetica, serif"><span>T</span>his is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica. This is a paragraph that has the font helvetica.</p>
+			</li>
+
+			<li>
+				<p>Two pictures that were originally different sizes, resized to 50px by 50px</p>
+				<img src="doggo 1.jpg" width="50px" height="50px">
+				<img src="doggo 2.jpg" width="50px" height="50px">
+			</li>
+
+			<li>
+				<p>One more unique CSS command that was not discussed in the workshop</p>
+				<p style="color:blue;"><span>T</span>his is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph. This is a blue paragraph.</p>
+			</li>
+		</ol>
+
+	<h2>Level 2: Apprentice</h2>
+		<ol>
+			<li>
+				<p>Text that is centered on a photo</p>
+				<style type="text/css">
+					.container {
+						position: relative;
+					}
+					.center {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						font-size: 20px;
+						color: white;
+					}
+	
+				</style>
+				<div class="container">
+					<img src="doggo 1.jpg" width="100%" height="250">
+					<div class="center">text that is centered</div>
+				</div>
+				
+			</li>
+
+			<li>
+				<p>A photo with 20 pixel margins on each side</p>
+				<img src="doggo 2.jpg" width="20px" height="20px">
+			</li>
+
+			<li>
+				<p>Text with a border that uses dotted lines</p>
+				<p style="border: dotted;"><span>T</span>his is a paragraph with a dotted line border. This is a paragraph with a dotted line border. This is a paragraph with a dotted line border. This is a paragraph with a dotted line border. This is a paragraph with a dotted line border. This is a paragraph with a dotted line border. This is a paragraph with a dotted line border. This is a paragraph with a dotted line border. </p>
+			</li>
+		</ol>
+	<h2>Level 3: Master</h2>
+		<ol>
+			<li>
+				<p>An external style sheet</p>
+
+			</li>
+			<li>
+				<p>A floated element</p>
+			</li>
+			<li>
+				<p>An element with rounded border corners</p>
+			</li>
+		</ol>
+</body>
+</html>

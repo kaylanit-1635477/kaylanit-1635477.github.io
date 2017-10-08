@@ -1,0 +1,10 @@
+img{
+	border-radius: 10px
+}
+span{
+	float: left;
+	width: 0.7em;
+	font-size: 400%;
+	font-family: algerian,courier;
+	line-height: 80%;
+}
