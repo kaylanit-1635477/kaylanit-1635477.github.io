@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="jobApplicationForm.css">
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Doggo Hotel Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Account</legend>
+		<div class="field">
+			<label>Email:</label> <br>
+			<input type="text" name="email"><br>
+		</div>
+		<div class="field">
+			<label>Password:</label> <br>
+			<input type="password" name="password"><br>
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> <br>
+			<input type="password" name="password_r"><br>
+		</div>
+		<div class="field">
+			<label>Enter the word for the thing you give to good doggos:</label> <br>
+			<input type="password" name="securityword">
+			<p></p>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>First Name:</label> <br>
+			<input type="text" name="firstname"><br>
+			<label>Last Name:</label> <br>
+			<input type="text" name="lastname"><br>
+		</div>
+		<div class="field">
+			<label>Gender:</label> <br>
+			<input type="radio" name="gender" value="male">Male<br>
+			<input type="radio" name="gender" value="female">Female<br>
+			<input type="radio" name="gender" value="Gender Neutral">Gender Neutral<br>
+			<input type="radio" name="gender" value="other">Other<br>
+		</div>
+		<div class="field">
+			<label>Street Address:</label> <br>
+			<input type="text" name="street"><br>
+		</div>
+		<div class="field">
+			<label>City:</label> <br>
+			<input type="text" name="city"><br>
+		</div>
+		<div class="field">
+			<label>State:</label> <br>
+			<select name="state"><br>
+				<option value="" selected="true">Choose a State</option>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>ZIP:</label> <br>
+			<input type="text" name="zip"><br>
+		</div>
+		<div class="field">
+			<label>Phone Number:</label><br>
+			<input type="text" name="phonenumber" maxlength="10"><br>
+		</div>
+		<div class="field">
+			<label>Email:</label><br>
+			<input type="email" name="email"><br>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Experience with doggos</legend>
+		<div class="field">
+			<label>Have you ever owned a dog before?</label><br>
+			<input type="radio" name="own" value="yes"> Yes<br>
+			<input type="radio" name="own" value="no">No <br>
+		</div>
+		<div class="field">
+			<label>What kind of doggos have you worked with? Please selecet all that apply.</label><br>
+			<input type="checkbox" name="worked" value="gooddoggos">Good doggos<br>
+			<input type="checkbox" name="worked" value="heckingooddoggos">Heckin good doggos<br>
+		</div>
+		<div class="field">
+			<label>Please rate the last doggo you saw on a scale of 1 to 10:</label><br>
+			<input type="number" name="rate" min="1" max="500"><br>
+			<p>Please note: if your rating was less than 9, then this job is not for you. Please leave this application immediately.</p>
+		</div>
+		<div class="field">
+			<label>What breeds of doggos have you worked with the most?</label><br>
+			<select name="doggos">
+				<option value="puggos">Puggos</option>
+				<option value="sammies">Sammies</option>
+				<option value="bernies">Bernies</option>
+				<option value="goldens">Goldens</option>
+				<option value="puggerino">Puggerino</option>
+				<option value="shooberino">Shooberino</option>
+				<option value="shoob">Shoob</option>
+				<option value="doge">Doge</option>
+				<option value="corgo">Corgo</option>
+				<option value="shibe">Shibe</option>
+				<option value="husko">Husko (go dawgs)</option>
+				<option value="woofer">Woofer</option>
+				<option value="floofer">Floofer</option>
+				<option value="yapper">Yapper</option>
+			</select><br>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you legally able to be employed in this country?</label> <br>
+			<input type="radio" name="legal" value="yes">Yes<br>
+			<input type="radio" name="legal" value="no">No<br>
+		</div>
+		<div>
+			<label>Do any doggos have restraining orders against you?</label><br>
+			<input type="radio" name="restraining" value="yes">Yes<br>
+			<input type="radio" name="restraining" value="no">No<br>
+		</div>
+		<div class="field">
+			<label>What type of position are you seeking? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="boop">Nose Booper</li>
+				<li><input type="checkbox" name="position_pt" value="parttime">Doggo Walker</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Treat Giver</li>
+				<li><input type="checkbox" name="position_sl" value="seasonal">Doggo facial expert</li>
+				<li><input type="checkbox" name="position_tp" value="temporary">Manicure Artist</li>
+				<li><input type="checkbox" name="fur" value="fur">Fur brusher</li>
+				<li><input type="checkbox" name="head" value="head">Head patter</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>Why do you deserve this job?</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Describe your personality:</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Name your favorite memory with a dog.</label> <br>
+			<textarea name="memory" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="button" name="worthy" onclick="alert('You are not worthy for the doggos')" value="Click to see if you are worthy enough to work with the doggos">
+	<input type="submit" value="Submit">
+	<input type="reset" name="reset">
+	
+
+</form>
+</body>
+</html>
